@@ -20,7 +20,7 @@ namespace oops_practicing
             this.name = name;
             this.age = age;
         }
-        public void Display()
+        public virtual void Display()
         {
             Console.WriteLine("name is :" + name);
             Console.WriteLine("Age is :"+age);
@@ -71,6 +71,10 @@ namespace oops_practicing
         public override void Roll()
         {
             Console.WriteLine("This is overridden method");
+        }
+        public override void Display()
+        {
+           Console.WriteLine("subject :"+subject);  
         }
     }
     internal class Program
