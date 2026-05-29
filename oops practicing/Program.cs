@@ -74,38 +74,38 @@ namespace oops_practicing
         }
         public override void Display()
         {
-           Console.WriteLine("subject :"+subject);  
+           Console.WriteLine("subject :"+subject);   
         }
     }
     internal class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Student Details");
-            Console.WriteLine("---------------");
-            Console.WriteLine("Enter student name :");
-            string name=Console.ReadLine();
-            Console.WriteLine("Enter student age :");
-            int age=int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter RollNumber :");
-            long roll=long.Parse(Console.ReadLine());   
-            Person p = new Student(name,age,roll);
-            p.Display();
-            p.Roll();
-            Student s = (Student)p;
-            s.study();
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("Student Details");
+        //    Console.WriteLine("---------------");
+        //    Console.WriteLine("Enter student name :");
+        //    string name=Console.ReadLine();
+        //    Console.WriteLine("Enter student age :");
+        //    int age=int.Parse(Console.ReadLine());
+        //    Console.WriteLine("Enter RollNumber :");
+        //    long roll=long.Parse(Console.ReadLine());   
+        //    Person p = new Student(name,age,roll);
+        //    p.Display();
+        //    p.Roll();
+        //    Student s = (Student)p;
+        //    s.study();
 
-            Console.WriteLine("Teacher Details");
-            Console.WriteLine("---------------");
+        //    Console.WriteLine("Teacher Details");
+        //    Console.WriteLine("---------------");
             
-            Console.WriteLine("Enter Subject :");
-            string sub = Console.ReadLine();
+        //    Console.WriteLine("Enter Subject :");
+        //    string sub = Console.ReadLine();
 
-            p = new Teacher(sub);
-            p.Display();
-            p.Roll();
-            Teacher t= (Teacher)p;
-            t.Teaching();
-        }
+        //    p = new Teacher(sub);
+        //    p.Display();
+        //    p.Roll();
+        //    Teacher t= (Teacher)p;
+        //    t.Teaching();
+        //}
     }
 }
