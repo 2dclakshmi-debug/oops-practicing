@@ -58,17 +58,17 @@ namespace oops_practicing
     }
     internal class AbstractionWithSingleInheritance
     {
-        static void Main(string[] args) 
-        {
-            VehicleData vd = new VehicleData("Audi", "a8", 9999);
+        //static void Main(string[] args) 
+        //{
+        //    VehicleData vd = new VehicleData("Audi", "a8", 9999);
            
-            vd.VehicleType();
-            vd.ModelType();
-            vd.DisplayName();
-            vd.displayModel();
-            vd.numberdisplay();
+        //    vd.VehicleType();
+        //    vd.ModelType();
+        //    vd.DisplayName();
+        //    vd.displayModel();
+        //    vd.numberdisplay();
             
-        }
+        //}
        
         
     }

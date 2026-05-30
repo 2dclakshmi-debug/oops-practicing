@@ -44,7 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractionWithSingleInheritance.cs" />
-    <Compile Include="Class2.cs" />
+    <Compile Include="constructorOverLoadingProving.cs" />
+    <Compile Include="implementingAbstraction.cs" />
+    <Compile Include="Shape.cs" />
+    <Compile Include="Task.cs" />
+    <Compile Include="ProveStaticVariable.cs" />
     <Compile Include="School.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
