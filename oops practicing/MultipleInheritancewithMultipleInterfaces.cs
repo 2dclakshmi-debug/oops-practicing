@@ -71,23 +71,23 @@ namespace oops_practicing
     }
     internal class MultipleInheritancewithMultipleInterfaces
     {
-        static void Main(string[] args)
-        {
-            IPhone ip = new iPhoneSE();
-            ip.Calling();
-            ip.Receiving();
-            ip.SendMsg();
-            ip.EndCall();
-            ip=new iPhone16();
-            ip.Calling();
-            ip.Receiving();
-            ip.SendMsg();
-            ip.EndCall();
-            IPhoneAdvance ipa=new iPhone16();
-            ipa.faceID();
-            ipa.VideoCalling();
-            ipa.AirDrop();
+        //static void Main(string[] args)
+        //{
+        //    IPhone ip = new iPhoneSE();
+        //    ip.Calling();
+        //    ip.Receiving();
+        //    ip.SendMsg();
+        //    ip.EndCall();
+        //    ip=new iPhone16();
+        //    ip.Calling();
+        //    ip.Receiving();
+        //    ip.SendMsg();
+        //    ip.EndCall();
+        //    IPhoneAdvance ipa=new iPhone16();
+        //    ipa.faceID();
+        //    ipa.VideoCalling();
+        //    ipa.AirDrop();
 
-        }
+        //}
     }
 }
