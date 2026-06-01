@@ -15,11 +15,11 @@ namespace oops_practicing
 
     internal class Class2
     {
-        static void Main(string[] args)
-        {
-            EBMembers emb = new EBMembers();
-            emb.printMessage();
-            Console.WriteLine(emb.Square(10));
-        }
+        //static void Main(string[] args)
+        //{
+        //    EBMembers emb = new EBMembers();
+        //    emb.printMessage();
+        //    Console.WriteLine(emb.Square(10));
+        //}
     }
 }

@@ -46,6 +46,7 @@
     <Compile Include="AbstractionWithSingleInheritance.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Class2.cs" />
+    <Compile Include="MultipleInheritancewithMultipleInterfaces.cs" />
     <Compile Include="InterfaceExample.cs" />
     <Compile Include="constructorOverLoadingProving.cs" />
     <Compile Include="implementingAbstraction.cs" />
